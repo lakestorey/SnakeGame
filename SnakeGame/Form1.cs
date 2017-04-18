@@ -1,4 +1,6 @@
-﻿using System;
+﻿///Lake Storey April 18, 2017
+///to create a playable game with the purpose of providing entertainment
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,6 +21,7 @@ namespace SnakeGame
 
         }
 
+        //create a public method to change the screens
         public static void ChangeScreen(string screen, UserControl currentScreen)
         {
             //close current screen
